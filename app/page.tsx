@@ -1,6 +1,10 @@
-import Image from "next/image";
 import MainTitle from "./components/MainTitle";
+import React from "react";
 
 export default function Home() {
-  return <MainTitle />;
+  return (
+    <div>
+      <MainTitle />
+    </div>
+  );
 }

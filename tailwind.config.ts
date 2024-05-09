@@ -8,29 +8,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-    },
-    colors: {
+      colors: {
 
-    },
-    fontFamily : {
-      sans: [
-        "Poppins",
-        "ui-sans-serif",
-        "system-ui",
-        "sans-serif",
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
-    ],
-    },
-    fontSize : {
-      "main-name": "50pt"
+      },
+      fontFamily : {
+        sans: [
+          "Poppins",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif",
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          '"Noto Color Emoji"',
+      ],
+      },
+      fontSize : {
+        "main-name": "50pt"
+      },
     },
   },
   plugins: [],
