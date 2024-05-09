@@ -14,6 +14,24 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+
+    },
+    fontFamily : {
+      sans: [
+        "Poppins",
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif",
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+        '"Noto Color Emoji"',
+    ],
+    },
+    fontSize : {
+      "main-name": "50pt"
+    },
   },
   plugins: [],
 };
