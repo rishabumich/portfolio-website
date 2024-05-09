@@ -36,7 +36,7 @@ function MainTitle() {
           }}
         />
       </div>
-      <div className="flex justify-center pr-[150px] mt-[-58px]">
+      <div className="flex justify-center pr-[152px] mt-[-58px]">
         <Image
           src={cowsayTemplate}
           alt="Cow with templated speech bubble"
