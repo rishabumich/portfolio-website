@@ -1,13 +1,14 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import cowsayTemplate from "../../assets/cowsayWhite.png";
-import Image from "next/image";
+import LinkedInIcon from "../../assets/LinkedInIcon.png";
 
 function MainTitle() {
   return (
-    <div>
+    <div className="mt-[270px]">
       <p className="text-white font-bold font-sans text-main-name flex justify-center pt-9 ">
         Rishab Gupta
       </p>
@@ -43,6 +44,11 @@ function MainTitle() {
           className="w-[635px] h-[255px]"
         />
       </div>
+      <Image
+        src={LinkedInIcon}
+        alt="LinkedIn Social Icon"
+        className="w-9 h-9 ml-[750px] mt-[25px]"
+      />
     </div>
   );
 }
