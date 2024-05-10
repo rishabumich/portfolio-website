@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      spacing: {
+        "25p": "25%"
+      },
       colors: {
 
       },
