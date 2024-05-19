@@ -11,10 +11,10 @@ import scrollDownGif from "../../assets/scrollDownGif.gif";
 
 function MainTitle() {
   return (
-    <>
-      <div className="flex flex-col justify-center items-center mt-80 space-y-4 relative">
-        <p className="text-white font-bold text-7xl">Rishab Gupta</p>
-        <div className="relative text-2xl text-white font-mono z-10 -mt-16 pt-3">
+    <div className="min-h-screen bg-black items-center">
+      <div className="flex flex-col justify-center items-center">
+        <p className="text-white mt-80 font-bold text-8xl">Rishab Gupta</p>
+        <div className="text-3xl text-white font-mono z-10 mt-3">
           <TypeAnimation
             sequence={[
               "I'm a Visionary.",
@@ -35,58 +35,59 @@ function MainTitle() {
             wrapper="div"
           />
         </div>
-        <div className="absolute top-1/2 w-full flex justify-center -mt-10 mr-44">
+        {/* <Image
+          src={cowsayTemplate}
+          alt="Cow with templated speech bubble"
+          layout="fixed"
+          width={635}
+          height={255}
+          className="mr-44"
+        /> */}
+        <div className="flex justify-between space-x-4 mt-16">
+          <a
+            href="https://github.com/rishabumich"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={githubIcon}
+              alt="Mail Social Icon"
+              className="w-12 h-12 hover:w-14 hover:h-14 transition-all duration-500 ease-in-out"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rishab-gupta04/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={LinkedInIcon}
+              alt="LinkedIn Social Icon"
+              className="w-12 h-12 hover:w-14 hover:h-14 transition-all duration-300 ease-in-out"
+            />
+          </a>
+          <a
+            href="mailto:rishabg@umich.edu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={mailIcon}
+              alt="Mail Social Icon"
+              className="w-12 h-12 hover:w-14 hover:h-14 transition-all duration-300 ease-in-out"
+            />
+          </a>
+        </div>
+        <div className="absolute flex justify-center bottom-0 left-1/2 transform -translate-x-20">
           <Image
-            src={cowsayTemplate}
-            alt="Cow with templated speech bubble"
-            layout="fixed"
-            width={635}
-            height={255}
+            src={scrollDownGif}
+            alt="Gif of Arrow pointing downwards"
+            width={150}
+            height={150}
           />
         </div>
       </div>
-      <div className="absolute top-[70%] left-1/2 transform -translate-x-1/2 translate-y-15 flex space-x-4">
-        <a
-          href="https://github.com/rishabumich"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={githubIcon}
-            alt="Mail Social Icon"
-            width={45}
-            height={45}
-          />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/rishab-gupta04/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={LinkedInIcon}
-            alt="LinkedIn Social Icon"
-            width={45}
-            height={45}
-          />
-        </a>
-        <a
-          href="mailto:rishabg@umich.edu"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image src={mailIcon} alt="Mail Social Icon" width={45} height={45} />
-        </a>
-      </div>
-      <div className="absolute flex justify-center bottom-0 left-1/2 transform -translate-x-20">
-        <Image
-          src={scrollDownGif}
-          alt="Gif of Arrow pointing downwards"
-          width={150}
-          height={150}
-        />
-      </div>
-    </>
+    </div>
   );
 }
 
