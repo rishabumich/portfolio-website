@@ -80,14 +80,14 @@ function MainTitle() {
             />
           </a>
         </div>
-        <div className="absolute flex justify-center bottom-0 left-1/2 transform -translate-x-20">
+        {/* <div className="absolute flex justify-center bottom-0 left-1/2 transform -translate-x-20">
           <Image
             src={scrollDownGif}
             alt="Gif of Arrow pointing downwards"
             width={150}
             height={150}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
