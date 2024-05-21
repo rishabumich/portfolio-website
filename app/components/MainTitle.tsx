@@ -12,7 +12,7 @@ import Particle from "./Particle";
 
 function MainTitle() {
   return (
-    <div className="min-h-screen bg-black items-center">
+    <div className="min-h-screen bg-bg-theme items-center">
       <Particle />
       <div className="flex flex-col justify-center items-center">
         <p className="text-white mt-80 font-bold text-4xl sm:text-4xl md:text-6xl lg:text-8xl">

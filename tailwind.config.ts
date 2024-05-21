@@ -12,7 +12,7 @@ const config: Config = {
         "25p": "25%"
       },
       colors: {
-
+        "bg-theme": "#141414"
       },
       fontFamily : {
         sans: [
