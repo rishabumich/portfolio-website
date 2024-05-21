@@ -8,10 +8,12 @@ import LinkedInIcon from "../../assets/LinkedInIcon.png";
 import mailIcon from "../../assets/mailIcon.png";
 import githubIcon from "../../assets/githubIcon.png";
 import scrollDownGif from "../../assets/scrollDownGif.gif";
+import Particle from "./Particle";
 
 function MainTitle() {
   return (
     <div className="min-h-screen bg-black items-center">
+      <Particle />
       <div className="flex flex-col justify-center items-center">
         <p className="text-white mt-80 font-bold text-8xl">Rishab Gupta</p>
         <div className="text-3xl text-white font-mono z-10 mt-3">

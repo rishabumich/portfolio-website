@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <div>
       <MainTitle />
-      <Michigan />
+      {/* <Michigan />
       <Experience />
-      <Projects />
+      <Projects /> */}
     </div>
   );
 }
