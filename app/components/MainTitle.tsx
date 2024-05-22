@@ -26,7 +26,7 @@ function MainTitle() {
           <div className="flex justify-between space-x-3">
             {/* <Image
               src={downloadSVG}
-              alt="Download Icon Small"
+              alt="Download Icon Small" 
               style={{
                 filter:
                   "invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(102%) contrast(102%)",
