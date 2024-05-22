@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import cowsayTemplate from "../../assets/cowsayWhite.png";
+import downloadSVG from "../../assets/download.svg";
 import LinkedInIcon from "../../assets/LinkedInIcon.png";
 import mailIcon from "../../assets/mailIcon.png";
 import githubIcon from "../../assets/githubIcon.png";
@@ -13,6 +14,28 @@ import Particle from "./Particle";
 function MainTitle() {
   return (
     <div className="min-h-screen bg-bg-theme items-center">
+      <div className="flex justify-end z-10 pt-3 pr-3">
+        <button
+          className=" text-white p-2 px-6 rounded-lg hover:bg-slate-600 ease-in duration-100 "
+          onClick={() => {
+            const pdfUrl =
+              "https://drive.google.com/file/d/152jU_D4I-V3VUUbaflXcMRI14-kand8o/view?usp=sharing";
+            window.open(pdfUrl, "_blank");
+          }}
+        >
+          <div className="flex justify-between space-x-3">
+            {/* <Image
+              src={downloadSVG}
+              alt="Download Icon Small"
+              style={{
+                filter:
+                  "invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(102%) contrast(102%)",
+              }}
+            /> */}
+            <p className="text-lg">Resume</p>
+          </div>
+        </button>
+      </div>
       <Particle />
       <div className="flex flex-col justify-center items-center">
         <p className="text-white mt-80 font-bold text-4xl sm:text-4xl md:text-6xl lg:text-8xl">
