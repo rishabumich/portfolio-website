@@ -14,7 +14,7 @@ import Particle from "./Particle";
 function MainTitle() {
   return (
     <div className="min-h-screen bg-bg-theme items-center">
-      <div className="flex justify-end z-10 pr-3 sm:pt-8 md:pt-5 lg:pt-3 pt-10">
+      <div className="flex justify-end z-10 pr-3 sm:pt-12 md:pt-5 lg:pt-3 pt-12">
         <button
           className=" text-white p-2 px-6 rounded-lg hover:bg-slate-600 ease-in duration-100 "
           onClick={() => {
