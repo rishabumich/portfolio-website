@@ -19,7 +19,7 @@ function MainTitle() {
           className=" text-white p-2 px-6 rounded-lg hover:bg-slate-600 ease-in duration-100 "
           onClick={() => {
             const pdfUrl =
-              "https://drive.google.com/file/d/152jU_D4I-V3VUUbaflXcMRI14-kand8o/view?usp=sharing";
+              "https://drive.google.com/file/d/1aTAOLAqFmWjfvl9bdaukhNyns24R22bh/view?usp=drive_link";
             window.open(pdfUrl, "_blank");
           }}
         >
