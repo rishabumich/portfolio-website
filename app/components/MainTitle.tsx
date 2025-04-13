@@ -93,11 +93,7 @@ function MainTitle() {
               className="w-12 h-12 hover:w-14 hover:h-14 transition-all duration-300 ease-in-out"
             />
           </a>
-          <a
-            href="mailto:rishabg@umich.edu"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="mailto:rishabg@umich.edu">
             <Image
               src={mailIcon}
               alt="Mail Social Icon"
